@@ -17,11 +17,11 @@ venv/
 # Data & outputs
 data/raw/
 data/processed/
-reports/figures/
-reports/table/
-reports/*.pdf
+reports/figures/*
+reports/table/*
+!reports/table/*.csv
 reports/*.png
-reports/*.csv
+!reports/*.pdf
 
 # Optional: if you use IDEs
 .vscode/
